@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images (1).png" class="logo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Service</a></li>
+            </ul>
+        <img src="menu.png" class="menu-icon">
+        </nav>
+
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>You can reach out to me if you need any help making a website for your bisness.</p>
+            <a href="">Contact Me</a>
+            <a href="" class="btn" >Download CV</a>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Dante Irwin", "Web Devolper", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
